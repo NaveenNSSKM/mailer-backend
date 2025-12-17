@@ -5,7 +5,7 @@ const { createClient } = require('@supabase/supabase-js');
 const nodemailer = require('nodemailer');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = 'https://mailer-backend-f36y.onrender.com';
 
 /* ✅ CORS – Allow all origins (Simplest & Most Robust for Dev) */
 app.use(cors());
@@ -103,7 +103,7 @@ app.post('/api/subscribe', async (req, res) => {
 
 /* ✅ Start server */
 app.listen(PORT, () => {
-  console.log(`\n🚀 Server running on http://localhost:${PORT}`);
-  console.log(`   - Test it: open http://localhost:${PORT} in browser`);
+  console.log(`\n🚀 Server running on ${PORT}`);
+  console.log(`   - Test it: open ${PORT} in browser`);
   console.log(`   - ready for POST /api/subscribe\n`);
 });
