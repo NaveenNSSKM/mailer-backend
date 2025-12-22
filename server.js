@@ -73,7 +73,7 @@ app.post('/api/subscribe', async (req, res) => {
     /* 2. Send mail */
     console.log('2. Attempting to send email...');
     const mailOptions = {
-      from: `"Marketing Dive" <${process.env.EMAIL_USER}>`,
+      from: `"Businesscale" <${process.env.EMAIL_USER}>`,
       to: email,
       subject: 'Welcome to Businesscale! 🚀',
       html: `
