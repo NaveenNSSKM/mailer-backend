@@ -78,7 +78,7 @@ app.post('/api/subscribe', async (req, res) => {
       subject: 'Welcome to Businesscale! 🚀',
       html: `
         <div style="font-family: Arial, sans-serif; padding: 20px; color: #333;">
-          <h1 style="color: #FF4500;">Welcome Aboard! 🎉</h1>
+          <h1 style="color: #2196f3;">Welcome Aboard! 🎉</h1>
           <p>Hi there,</p>
           <p>Thank you for subscribing to our newsletter. You've been successfully added to our database.</p>
           <p>Best regards,<br>The Team</p>
