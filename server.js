@@ -75,7 +75,7 @@ app.post('/api/subscribe', async (req, res) => {
     const mailOptions = {
       from: `"Marketing Dive" <${process.env.EMAIL_USER}>`,
       to: email,
-      subject: 'Welcome to Marketing Dive! 🚀',
+      subject: 'Welcome to Businesscale! 🚀',
       html: `
         <div style="font-family: Arial, sans-serif; padding: 20px; color: #333;">
           <h1 style="color: #FF4500;">Welcome Aboard! 🎉</h1>
